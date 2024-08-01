@@ -1,0 +1,17 @@
+@media screen and (max-width: 576px){
+    header{
+        width: 90%;
+        flex-direction: column;
+    }
+    .banner-text-container{
+        width: 100%;
+    }
+    .banner-text-container h1{
+        font-size: 42px;
+        line-height: 48px;
+        border-left: none;
+    }
+    .banner-image{
+        width: 100%;
+    }
+}
