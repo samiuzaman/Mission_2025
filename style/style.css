@@ -24,6 +24,7 @@ p {
 h2 {
   font-size: 42px;
   font-weight: 700;
+  text-align: center;
 }
 h3 {
   font-size: 32px;
@@ -39,7 +40,7 @@ button {
   color: #fff;
   border: none;
   padding: 12px 35px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   border-radius: 5px;
   margin: 15px 0;
@@ -80,3 +81,58 @@ header {
   width: 100%;
 }
 /* Header Section Code End Here */
+/* My Mission Section Code Start Here */
+#my-mission-section {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.my-mission-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 100px;
+}
+.my-mission-single-card {
+  width: 30%;
+  padding: 36px;
+  border-radius: 15px;
+  text-align: justify;
+}
+.my-mission-single-card:nth-last-child(3) {
+  background-color: #edf5f6;
+}
+.my-mission-single-card:nth-last-child(2) {
+  background-color: #ffeeee;
+}
+.my-mission-single-card:nth-last-child(1) {
+  background-color: #fff4d6;
+}
+.my-mission-single-card img {
+  width: 100px;
+  height: 100px;
+}
+.my-mission-single-card h4 {
+  font-weight: 700;
+}
+.Develop-Without-Limits,
+.Know-our-Global-Community {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+}
+.Develop-Without-Limits{
+  margin-bottom: 34px;
+}
+.Develop-Without-Limits img,
+.Know-our-Global-Community img {
+  width: 400px;
+  height: 400px;
+}
+.my-mission-details-text-container p {
+  color: #3e3e3e;
+  font-size: 16px;
+  text-align: justify;
+}
+/* My Mission Section Code End Here */

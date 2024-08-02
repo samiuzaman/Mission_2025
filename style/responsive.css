@@ -1,17 +1,42 @@
-@media screen and (max-width: 576px){
-    header{
-        width: 90%;
-        flex-direction: column;
-    }
-    .banner-text-container{
-        width: 100%;
-    }
-    .banner-text-container h1{
-        font-size: 42px;
-        line-height: 48px;
-        border-left: none;
-    }
-    .banner-image{
-        width: 100%;
-    }
+@media screen and (max-width: 576px) {
+  header {
+    width: 90%;
+    flex-direction: column;
+  }
+  .banner-text-container {
+    width: 100%;
+  }
+  .banner-text-container h1 {
+    font-size: 42px;
+    line-height: 48px;
+    border-left: none;
+  }
+  .banner-image {
+    width: 100%;
+  }
+  /* My Mission Section Code Start Here */
+  #my-mission-section {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 200px;
+  }
+  .my-mission-card-container,
+  .Know-our-Global-Community {
+    flex-direction: column;
+  }
+  .Know-our-Global-Community {
+    flex-direction: column-reverse;
+  }
+  .my-mission-single-card {
+    width: 75%;
+  }
+  .Develop-Without-Limits img,
+  .Know-our-Global-Community img {
+    width: 300px;
+    height: 300px;
+  }
+  .Develop-Without-Limits {
+    flex-direction: column;
+  }
+  /* My Mission Section Code End Here */
 }
