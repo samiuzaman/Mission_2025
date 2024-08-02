@@ -166,3 +166,23 @@ header {
   text-align: justify;
 }
 /* Build Corona Application Section Code End Here */
+/* Footer section Code Start Here */
+footer {
+  width: 100%;
+  background-color: #0b0d17;
+  text-align: center;
+  padding: 20px 0;
+}
+footer h3 {
+  font-family: Lobster;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: -10px;
+}
+footer h3 span {
+  color: #ff5959;
+}
+footer p {
+  color: #D9DBE1;
+}
+/* Footer section Code End Here */
