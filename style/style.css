@@ -27,9 +27,9 @@ h2 {
   text-align: center;
 }
 h3 {
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 700;
-  line-height: 28px;
+  line-height: 48px;
 }
 h4 {
   font-size: 22px;
@@ -122,7 +122,7 @@ header {
   align-items: center;
   gap: 48px;
 }
-.Develop-Without-Limits{
+.Develop-Without-Limits {
   margin-bottom: 34px;
 }
 .Develop-Without-Limits img,
@@ -136,3 +136,33 @@ header {
   text-align: justify;
 }
 /* My Mission Section Code End Here */
+/* Build Corona Application Section Code Start Here */
+#build-corona-application {
+  width: 80%;
+  margin: 0 auto;
+}
+#build-corona-application h2 span {
+  color: #ffad5a;
+}
+.build-application-parent-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.build-application-image-container {
+  width: 338px;
+  height: 542px;
+}
+.build-application-image-container img {
+  width: 229px;
+  height: 471px;
+}
+.build-application-text-container {
+  width: 525px;
+}
+.build-application-text-container h3 span {
+  color: #ffad5a;
+}
+.build-application-text-container p {
+  text-align: justify;
+}
+/* Build Corona Application Section Code End Here */

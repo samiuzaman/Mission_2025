@@ -39,4 +39,15 @@
     flex-direction: column;
   }
   /* My Mission Section Code End Here */
+  /* Build Corona Application Section Code Start Here */
+  #build-corona-application{
+    width: 90%;
+  }
+  .build-application-parent-container{
+    flex-direction: column;
+  }
+  .build-application-text-container{
+    width: 100%;
+  }
+  /* Build Corona Application Section Code End Here */
 }
